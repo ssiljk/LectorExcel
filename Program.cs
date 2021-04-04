@@ -14,7 +14,7 @@ namespace LectorExcel
     {
         static void Main(string[] args)
         {
-            string fileName = @"C:\Users\JLeon\source\repos\excel\Prueba3Hojas.xlsx";
+            string fileName = @"C:\temp\Prueba3Hojas.xlsx";
             var result = new DataTable();
             MoveExcelSheetsToCSV(fileName, false);
 
